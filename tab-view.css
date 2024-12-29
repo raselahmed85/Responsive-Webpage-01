@@ -1,0 +1,106 @@
+@media screen and (max-width:800px){
+    .navmanu ul{
+        flex-direction: column;
+    }
+    .navmanu ul li{
+        margin: 0 auto;
+        list-style: none;
+        padding: 10px 40px;
+        border-radius: 15px;
+        margin: 10px 0;
+        text-align: center;
+    }
+    .navmanu ul li:hover{
+        background-color: grey;
+        width: 100%;
+    }
+    .navmanu ul li a:hover{
+        color:brown;
+    }
+    .home-div{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .name-datels{
+        width: 90%;
+    }
+    .fa-brands{
+        margin: 0 20px;
+        margin-bottom: 50px;
+        font-size: 30px;
+        text-align: center;
+    } 
+
+    /* This is a about Section Start */
+
+    .about-div{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+
+    .avata-pic{
+        width: 90%;
+    }
+
+    .about-me{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .about-class{
+         text-align: center;
+    }
+    .about-pera{
+        text-align:justify;
+        padding-right:0;
+    }
+
+    .section-01 ul li{
+        color: rgb(48, 48, 48);
+        display: inline-block;
+        margin: 5px 15px;
+        border: 1.5px solid rgb(1, 244, 248);
+        padding: 0 10px;
+        font-size: 24px;
+        border-radius: 5%;
+    }   
+    
+    .btn{
+        margin-top: 80px;
+    }
+
+/* This is a Servise div Start  */
+
+.service-div{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.web-development{
+    width: 90%;
+}
+.UI-Design{
+    width: 90%;
+}
+.App-Development{
+    width: 90%;
+     
+}
+
+/* This is a Servise div End  */
+
+.skill-div{
+    flex-direction: column;
+    justify-content: center;
+}
+.Technical-Skills{
+    width: 90%;
+}
+
+}   

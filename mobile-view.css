@@ -1,0 +1,229 @@
+@media screen and (max-width:450px){
+    .navmanu ul{
+        flex-direction: column;
+    }
+    .navmanu ul li{
+        margin: 0 auto;
+        list-style: none;
+        padding:8px;
+        border-radius: 15px;
+        text-align: center;
+    }
+    .navmanu ul li a{
+        font-size: 20px;
+    }
+    .navmanu ul li:hover{
+        background-color: grey;
+        width: 100%;
+    }
+    .navmanu ul li a:hover{
+        color:brown;
+    }
+    .name-datels{
+        width: 90%;
+        margin-left: 60px;
+    margin-top: 90px;
+    }
+    .rasel-ahmed{
+        font-size: 50px;
+    }
+    .pera{
+        font-size: 20px;
+    }
+    .addres-eamil li{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .fa-linkedin{
+        padding: 10px;
+    }
+    .fa-facebook{
+        padding: 10px;
+    }
+    .fa-github{
+        padding: 10px;
+    }
+    .fa-youtube{
+        padding: 10px;
+    }
+
+    .fa-brands{
+        margin: 0 10px;
+        margin-bottom: 10px;
+        font-size: 30px;
+        text-align: center;
+    } 
+
+    .socil-link{
+        margin-top: 30px;
+    }
+    .profile img{
+        border-radius:40% 0 40% 0%;
+        outline: 5px solid #dfe4ea;
+        border: 5px solid #f1f2f6;
+        margin-top: 30px;
+        width: 60%;
+        height: auto;
+        align-items: center;
+        margin-left: 20%;
+        margin-bottom: 0;
+        
+    }
+
+    /* This is a about Section Start */
+
+    .about-div{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+    
+    }
+
+    .avata-pic{
+        width: 90%;
+    }
+
+    .about-me{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 20px;
+    }
+    .about-class{
+         font-size: 30px;
+    }
+    .about-pera{
+        text-align:justify;
+        padding-right: 20px;
+        font-size: 17px;
+    }
+
+    .section-01 ul li{
+        color: rgb(48, 48, 48);
+        display: inline-block;
+        margin: 5px;
+        border: 1.5px solid rgb(1, 244, 248);
+        padding: 0 10px;
+        font-size: 17px;
+        border-radius: 5%;
+    }   
+    
+    .btn{
+        margin-top: 50px;
+        margin-bottom: 30px;
+    }
+
+/* This is a Servise div Start  */
+
+
+.service-div{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.fa-code{
+    padding-left: 20px;
+    padding-top: 30px;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+background-color: white;
+.web-dev{
+    padding-left: 20px;
+    padding-bottom: 30px;
+    font-size: 25px;
+}
+.web-pera{
+    padding-left: 20px;
+    font-size: 17px;
+}
+
+.web-development{
+    height: 260px;
+    border-radius:10px;
+    box-shadow: 1px 1px 10px #a1a1a1;
+    width: 90%;
+}
+
+
+.UI-Design{
+}
+.fa-record-vinyl{
+    padding-left: 20px;
+    padding-top: 30px;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.ui-desn{
+    padding-left: 20px;
+    padding-bottom: 30px;
+    font-size: 25px;
+}
+.ui-pera{
+    padding-left: 20px;
+    font-size: 17px;
+}
+
+.UI-Design{
+    width: 90%;
+    background-color: white;
+    height: 260px;
+    border-radius:10px;
+    box-shadow: 1px 1px 10px #a1a1a1;
+}
+
+
+.App-Development{
+}
+.fa-snowflake{
+    padding-left: 20px;
+    padding-top: 30px;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+.app-dev{
+    padding-left: 20px;
+    padding-bottom: 30px;
+    font-size: 25px;
+}
+.app-pera{
+    padding-left: 20px;
+    font-size: 17px;
+}
+
+.App-Development{
+    width: 90%;
+    background-color: white;
+    height: 260px;
+    border-radius:10px;
+    box-shadow: 1px 1px 10px #a1a1a1;
+}
+ 
+
+/* This is a Servise div End  */
+
+.skill-div{
+    flex-direction: column;
+    justify-content: center;
+}
+.Technical-Skills h1{
+    font-size: 30px;
+}
+.Technical-Skills ul li{
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+
+.Technical-Skills ul li::before{
+    height: 10px;
+
+}
+.Technical-Skills ul li::after{
+    height: 10px;
+}
